@@ -1,0 +1,9 @@
+# Keep the Docker build context small.
+# NOTE: the target folder is NOT ignored, because the Dockerfile needs target/online-feedback-form.jar
+.git
+.github
+.idea
+.vscode
+src
+*.md
+Jenkinsfile
